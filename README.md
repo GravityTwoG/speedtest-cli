@@ -4,9 +4,6 @@ A small Node.js console script that measures download speed by requesting a URL
 ten times sequentially, waiting for each response to finish before starting the
 next one.
 
-It reports the average time per request, the total number of downloaded bytes,
-and the resulting download speed.
-
 ## Requirements
 
 - Node.js 18 or newer
@@ -39,8 +36,7 @@ request time and the download speed.
 
 ## Units
 
-- Downloaded data: **MB**, decimal megabytes (1 MB = 1,000,000 bytes).
-- Average request time: **seconds (s)**.
-- Download speed: **MB/s**, decimal megabytes per second (bytes per second
-  divided by 1,000,000). A megabit-per-second value ("Mbps", 1 Mbit = 1,000,000
-  bits) is shown next to it for convenience.
+- Data: **MB** — decimal megabytes (1 MB = 1,000,000 bytes).
+- Time: **s** — seconds.
+- Speed: **MB/s** — megabytes per second, with **Mbps** (megabits per second)
+  shown alongside for convenience.
