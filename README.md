@@ -19,13 +19,13 @@ npm start -- <url>
 Example:
 
 ```bash
-npm start -- https://example.com/large-image.jpg
+npm start -- 'https://speed.cloudflare.com/__down?bytes=10000000'
 ```
 
 You can also call the script directly:
 
 ```bash
-node speedtest.js https://example.com/large-image.jpg
+node speedtest.js 'https://speed.cloudflare.com/__down?bytes=10000000'
 ```
 
 ## Output
